@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lora-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Oxygen-Regular", sans-serif; }
+
+.conteiner {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.together {
+  min-height: 500px;
+  padding: 24px 0 157px 0;
+  background: url("../image/bg-1.png") center center/cover no-repeat; }
+  .together__header {
+    display: flex;
+    justify-content: space-between; }
+  .together__logo {
+    font-family: "Lora";
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF; }
+  .together__links {
+    width: 376px;
+    display: flex;
+    justify-content: space-around; }
+  .together__link {
+    font-family: "Oxygen";
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF; }
+  .together__title {
+    margin-top: 130px;
+    text-align: center;
+    font-family: "Lora";
+    font-size: 50px;
+    color: #FFFFFF; }
+  .together__subtitle {
+    font-family: "Oxygen";
+    font-size: 17px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63); }
+
+.button {
+  display: block;
+  width: 167px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 31px;
+  background: #DD783F;
+  border: 1px;
+  border-radius: 3px;
+  font-family: "Oxygen";
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
